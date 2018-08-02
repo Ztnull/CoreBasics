@@ -15,7 +15,7 @@ namespace MvcCookieAuthSample
     {
         public Startup(IConfiguration configuration)
         {
-            Configuration = configuration;
+            Configuration = configuration; 
         }
 
         public IConfiguration Configuration { get; }
